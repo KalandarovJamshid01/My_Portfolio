@@ -20,15 +20,27 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import mysql from "./tech/mysql.png";
+import linux from "./tech/linux.png";
+import postgresql from "./tech/postgresql.png";
+import github_tech from "./tech/github.png";
+import socket from "./tech/socket.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import starbucks from "./company/magicsoft.svg";
+import tesla from "./company/kervanyol.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import eximerp from "./eximerp.jpg";
+import guzarpost from "./guzarpost.jpg";
+import marketlochin from "./marketlochin.jpg";
+
+import exim_logo from "./exim_logo.svg"
+import guzar_logo from "./guzar_logo.png"
+import lochin_logo from "./lochin_logo.png"
 
 export {
   logo,
@@ -52,6 +64,11 @@ export {
   tailwind,
   typescript,
   threejs,
+  mysql,
+  linux,
+  postgresql,
+  github_tech,
+  socket,
   meta,
   shopify,
   starbucks,
@@ -59,4 +76,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  eximerp,
+  guzarpost,
+  marketlochin,
+  exim_logo,
+  guzar_logo,
+  lochin_logo
 };

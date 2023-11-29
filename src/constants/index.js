@@ -23,6 +23,17 @@ import {
   jobit,
   tripguide,
   threejs,
+  mysql,
+  postgresql,
+  linux,
+  github_tech,
+  socket,
+  eximerp,
+  guzarpost,
+  marketlochin,
+  exim_logo,
+  guzar_logo,
+  lochin_logo,
 } from "../assets";
 
 export const navLinks = [
@@ -46,11 +57,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React  Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "NodeJs Developer",
     icon: backend,
   },
   {
@@ -72,22 +83,22 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -97,74 +108,80 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySql",
+    icon: mysql,
   },
   {
-    name: "git",
+    name: "PostgreSql",
+    icon: postgresql,
+  },
+  {
+    name: "Socket.IO",
+    icon: socket,
+  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  {
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Github",
+    icon: github_tech,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Figma",
+    icon: figma,
+  },
+  // {
+  //   name: "Docker",
+  //   icon: docker,
+  // },
+  {
+    name: "Linux",
+    icon: linux,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "JavaScript Developer",
+    company_name: "MagicSoft Pro",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "November 2021 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Creating API.",
+      "Designing and implementing low-latency, high-availability, and performant applications.",
+      "Integrating user-facing elements developed by front-end developers with server-side logic.",
+      "Implementing security and data protection. Developing and deploying.",
+      "I have participated in several large projects in this company. Among them are tuitfilemanagementsystem.uz, magicagro.uz and one of our biggest projects, eximerp.uz. I participated in these projects mainly in the backend part of the site architecture, database management, registration part, file upload and live performance.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Nodejs Backend Developer, TeamLead",
+    company_name: "Kervanyo'l ",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2023 - October 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Creating API. Building website architecture.",
+      "Team management.Researching, designing, implementing.Testing and evaluating new programs.",
+      "Writing and implementing efficient code. Determining operational practicality.",
+      "Training users. Working closely with other developers, UX designers, business and systems analysts.",
+      "I started working in this company when the eximerp.uz project was transferred to this company and participated in the development of the eximerp.uz project. We have implemented one more medium-level project at Kervanyol Technologies. In the guzarpost.uz project, I did all the work in the project architecture, team management and backend from the beginning to the end.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Freelancer, Full Stack Developer",
+    company_name: "Upwork",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I am currently a full stack developer. Another big project was completed during my freelancing career. In the marketlochin.uz project, I made the site architecture and the backend part myself. I also have a few small projects.",
     ],
   },
 ];
@@ -198,10 +215,14 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "EximErp",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This project looks like a simple project, but it is a large ERP system. The project has a 12-step user interface. The project is based on the idea of automating the customs system of Uzbekistan. I did the site architecture, registration, file sharing and integration with external projects part of this project.",
     tags: [
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
@@ -211,54 +232,65 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "socket.io",
+        color: "grey-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: eximerp,
+    source_code_link: "https://eximerp.uz",
+    project_logo: exim_logo,
   },
   {
-    name: "Job IT",
+    name: "GuzarPost",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project is also a large ERP system with 16 steps. The project is aimed at automating the logistics industry, so that users can get their cargo anywhere in the world by applying to the site. I did the site architecture and backend part of this project myself from start to finish. That is, it is the first big real project that I have done alone.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "mysql",
+        color: "blue-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: guzarpost,
+    source_code_link: "https://guzarpost.uz",
+    project_logo: guzar_logo,
   },
   {
-    name: "Trip Guide",
+    name: "Lochin Market",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This project is a CRM system designed to automate the internal structure of the market. Through this project, users can manage their markets as they wish. That is, which seller is working, which product is in high or low demand, how much is left of which product, the original price of the product, the selling price in dollar and soum currencies, etc. One of the big innovations in the project is that the credit system has been added to the project. I did the architecture and backend part of this project from the beginning to the end. (For testing https://test-market-nine.vercel.app/, https://test-market-admin.vercel.app).",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "mysql",
+        color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: marketlochin,
+    source_code_link: "https://marketlochin.uz",
+    project_logo: lochin_logo,
   },
 ];
 
