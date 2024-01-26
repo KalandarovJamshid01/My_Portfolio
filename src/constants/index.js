@@ -237,7 +237,7 @@ const projects = [
       },
     ],
     image: eximerp,
-    source_code_link: "https://eximerp.uz",
+    source_code_link: "https://eximerp.com",
     project_logo: exim_logo,
   },
   {
@@ -263,7 +263,7 @@ const projects = [
       },
     ],
     image: guzarpost,
-    source_code_link: "https://guzarpost.uz",
+    source_code_link: "https://guzarexpress.uz",
     project_logo: guzar_logo,
   },
   {
