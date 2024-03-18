@@ -31,6 +31,8 @@ import {
   eximerp,
   guzarpost,
   marketlochin,
+  fincorp,
+  fincorp_logo,
   exim_logo,
   guzar_logo,
   lochin_logo,
@@ -217,7 +219,7 @@ const projects = [
   {
     name: 'EximErp',
     description:
-      'This project looks like a simple project, but it is a large ERP system. The project has a 12-step user interface. The project is based on the idea of automating the customs system of Uzbekistan. I did the site architecture, registration, file sharing and integration with external projects part of this project.',
+      'This project looks like a simple project, but it is a large ERP system. The project has a 12-step user interface. The project is based on the idea of automating the customs system of Uzbekistan. I did the site architecture, registration, real-time part by socket.io, file sharing and integration with external projects part of this project. Nowadays, project is developing and work is being done for the next versions',
     tags: [
       {
         name: 'nodejs',
@@ -269,7 +271,7 @@ const projects = [
   {
     name: 'Lochin Market',
     description:
-      'This project is a CRM system designed to automate the internal structure of the market. Through this project, users can manage their markets as they wish. That is, which seller is working, which product is in high or low demand, how much is left of which product, the original price of the product, the selling price in dollar and soum currencies, etc. One of the big innovations in the project is that the credit system has been added to the project. I did the architecture and backend part of this project from the beginning to the end. (For testing https://test-market-nine.vercel.app/, https://test-market-admin.vercel.app).',
+      'This project is a CRM system designed to automate the internal structure of the market. Through this project, users can manage their markets as they wish. That is, which seller is working, which product is in high or low demand, how much is left of which product, the original price of the product, the selling price in dollar and soum currencies, etc. One of the big innovations in the project is that the credit system has been added to the project. I did the architecture and backend part of this project from the beginning to the end.',
     tags: [
       {
         name: 'react',
@@ -295,7 +297,7 @@ const projects = [
   {
     name: 'FinCorp',
     description:
-      'This project is a CRM system designed to automate the internal structure of the market. Through this project, users can manage their markets as they wish. That is, which seller is working, which product is in high or low demand, how much is left of which product, the original price of the product, the selling price in dollar and soum currencies, etc. One of the big innovations in the project is that the credit system has been added to the project. I did the architecture and backend part of this project from the beginning to the end. (For testing https://test-market-nine.vercel.app/, https://test-market-admin.vercel.app).',
+      'This project was one of my best works. The project is a site that shows real-time sales of issuers in Uzbekistan. In addition, the project has its own market index, which I created. I did the architecting, backend parts of the project myself from start to finish. One of the main achievements of the project is that we used tardingview (advanced) library (one of the first in UZB). I also did the integration of Tradingview in the frontend and the corresponding data delivery parts in the backend. One of the main points of the project is that the project does everything by itself without an admin. It can add and change data by itself based on the order (something like that, even if it is not artificial intelligence. Just kidding😁) and in addition, with more than 1.5 million data in the database and more than 10,000 trades per day, the site works as fast as possible. I used datamart+partition in the database development and addressed the main areas with SQL query.',
     tags: [
       {
         name: 'react',
@@ -314,9 +316,9 @@ const projects = [
         color: 'blue-text-gradient',
       },
     ],
-    image: marketlochin,
-    source_code_link: 'https://marketlochin.uz',
-    project_logo: lochin_logo,
+    image: fincorp,
+    source_code_link: 'https://fincorp.uz',
+    project_logo: fincorp_logo,
   },
 ];
 
