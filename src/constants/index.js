@@ -183,7 +183,7 @@ const experiences = [
     iconBg: '#383E56',
     date: 'Nov 2023 - Present',
     points: [
-      'I am currently a full stack developer. Another big project was completed during my freelancing career. In the marketlochin.uz project, I made the site architecture and the backend part myself. I also have a few small projects.',
+      'I am currently a full stack developer. Another big project was completed during my freelancing career. In the marketlochin.uz project, I made the site architecture and the backend part myself. I also have a few small projects. My projects on freelance are marketlochin.uz, fincorp.uz and other little sites.',
     ],
   },
 ];
