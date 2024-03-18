@@ -292,6 +292,32 @@ const projects = [
     source_code_link: "https://marketlochin.uz",
     project_logo: lochin_logo,
   },
+  {
+    name: "Lochin Market",
+    description:
+      "This project is a CRM system designed to automate the internal structure of the market. Through this project, users can manage their markets as they wish. That is, which seller is working, which product is in high or low demand, how much is left of which product, the original price of the product, the selling price in dollar and soum currencies, etc. One of the big innovations in the project is that the credit system has been added to the project. I did the architecture and backend part of this project from the beginning to the end. (For testing https://test-market-nine.vercel.app/, https://test-market-admin.vercel.app).",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: marketlochin,
+    source_code_link: "https://marketlochin.uz",
+    project_logo: lochin_logo,
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
