@@ -265,7 +265,7 @@ const projects = [
       },
     ],
     image: guzarpost,
-    source_code_link: 'https://guzarexpress.uz',
+    source_code_link: 'https://guzarpost.uz',
     project_logo: guzar_logo,
   },
   {
