@@ -191,27 +191,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
+      'I thought it was impossible to make a website as beautiful as our product, but Jamshid proved me wrong.',
+    name: 'Bexroz Muzaffarov',
     designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+    company: 'Kervanyo`l Technologies LLC',
+    image: 'https://randomuser.me/api/portraits/men/4.jpg',
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
+      "I've never met a web developer who truly cares about their clients' success like Jamshid does.",
+    name: 'Xusin Karimboyev',
     designation: 'COO',
-    company: 'DEF Corp',
+    company: 'Market Lochin LLC',
     image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
+      "After Jamshid optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: 'Mansurxuja Tuxtasinov',
     designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    company: 'Fincorp LLC',
+    image: 'https://randomuser.me/api/portraits/men/6.jpg',
   },
 ];
 
