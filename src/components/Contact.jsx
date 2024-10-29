@@ -153,7 +153,7 @@ const Contact = () => {
               />
             </svg>
           </a>
-          <a href="https://www.instagram.com/jamshid_kalandarov_01">
+          <a href="https://www.instagram.com/jamshidkalandarov">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="30"
