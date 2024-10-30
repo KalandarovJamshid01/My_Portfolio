@@ -209,7 +209,7 @@ const testimonials = [
     testimonial:
       "After Jamshid optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: 'Mansurxuja Tuxtasinov',
-    designation: 'CTO',
+    designation: 'CEO',
     company: 'Fincorp LLC',
     image: 'https://randomuser.me/api/portraits/men/6.jpg',
   },
